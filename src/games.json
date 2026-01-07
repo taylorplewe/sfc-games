@@ -1,104 +1,487 @@
 [
   {
-    "en": "Front Mission: Gun Hazard"
+    "title_en": "Front Mission: Gun Hazard"
+    "title_jp": "フロントミッションシリーズ ガンハザード",
+    "title_jp_romaji": "Furonto Misshon Shirīzu Gan Hazādo",
+    "genre": "side_scrolling_shooter",
+    "description": "",
+    "developer": "Omiya Soft",
+    "publisher": "Squaresoft",
+    "gameplay_still_url": "https://upload.wikimedia.org/wikipedia/en/9/9e/Gun_Hazard_Screenshot.png",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Gun_Hazard_Cover.png/425px-Gun_Hazard_Cover.png",
+    "release_date": "1996-02-23",
+    "fun_facts": [],
   },
   {
-    "en": "Gunple Gunmans Proof"
+    "title_en": "Gunple Gunmans Proof"
+    "title_jp": "ガンプル Gunman's Proof",
+    "title_jp_romaji": "Gunman's Proof Ganpuru",
+    "genre": "action_adventure",
+    "description": "",
+    "developer": "Lenar",
+    "publisher": "ASCII",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/7/76/Gunple_Gunman%E2%80%99s_Proof_cover.jpg",
+    "release_date": "1997-01-31",
+    "fun_facts": [
+      "Final Fantasy VII was released on the same day."
+    ],
   },
   {
-    "en": "Warriors of the Blue Dragon Legend (*Bushi Seiryuden: Futori no Yuusha*)"
+    "title_en": "Warriors of the Blue Dragon Legend"
+    "title_jp": "BUSHI青龍伝〜二人の勇者〜",
+    "title_jp_romaji": "Bushi Seiryuden: Futori no Yuusha",
+    "genre": "rpg",
+    "description": "",
+    "developer": "Game Freak",
+    "publisher": "T&E Soft",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "1997-01-17",
+    "fun_facts": [],
   },
   {
-    "en": "Albert Odyssey"
+    "title_en": "Albert Odyssey"
+    "title_jp": "アルバートオデッセイ",
+    "title_jp_romaji": "Arubaato Odessei",
+    "genre": "rpg_tact",
+    "description": "",
+    "developer": "Sunsoft",
+    "publisher": "Sunsoft",
+    "gameplay_still_url": "https://upload.wikimedia.org/wikipedia/en/e/e3/AlbertOdyssey1.png",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/1/18/AlbertOdysseyfront.jpg",
+    "release_date": "1993-03-05",
+    "fun_facts": [],
   },
   {
-    "en": "Albert Odyssey 2"
+    "title_en": "Albert Odyssey 2"
+    "title_jp": "アルバートオデッセイII 邪神の胎動",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "Sunsoft",
+    "publisher": "Sunsoft",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "1994-12-22",
+    "fun_facts": [],
   },
   {
-    "en": "*Ihatovo Monogatari*"
+    "title_en": "Ihatovo Monogatari"
+    "title_jp": "イーハトーヴォ物語",
+    "title_jp_romaji": "Īhatōvo Monogatari",
+    "genre": "adventure",
+    "description": "",
+    "developer": "Hect",
+    "publisher": "Hect",
+    "gameplay_still_url": "https://upload.wikimedia.org/wikipedia/en/d/da/IhatovoMonogatariScreenshotSNESTeacher.PNG",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/b/be/Ihatovo_Monogatari_Coverart.png",
+    "release_date": "1993-03-05",
+    "fun_facts": [],
   },
   {
-    "en": "Marvelous: Another Treasure Island"
+    "title_en": "Marvelous: Another Treasure Island"
+    "title_jp": "マーヴェラス ～もうひとつの宝島～",
+    "title_jp_romaji": "Marvelous: Mōhitotsu no Takarajima",
+    "genre": "action_adventure",
+    "description": "",
+    "developer": "Nintendo R&D2",
+    "publisher": "Nintendo",
+    "gameplay_still_url": "https://upload.wikimedia.org/wikipedia/en/c/c9/Marvelous_Mouhitsu_Screenshot.png",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/4/48/Marvelous_boxart.png",
+    "release_date": "1996-10-26",
+    "fun_facts": [
+      "The first game directed by Eiji Aonuma.",
+      "Uses the engine from The Legend of Zelda: A Link to the Past.",
+      "Aonuma began work on Ocarina of Time immediately following this game."
+    ],
   },
   {
-    "en": "Laplace no Ma (horror game, looks interesting)"
+    "title_en": "Laplace no Ma (horror game, looks interesting)"
+    "title_jp": "ラプラスの魔",
+    "title_jp_romaji": "",
+    "genre": "rpg_turn",
+    "description": "",
+    "developer": "HummingBird Soft",
+    "publisher": "Vic Tokai",
+    "gameplay_still_url": "https://cdn.mobygames.com/screenshots/692138-laplace-no-ma-snes-intro.png",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://cdn.mobygames.com/40bc119c-ab97-11ed-bc1c-02420a00019a.webp",
+    "release_date": "1995-07-14",
+    "fun_facts": [],
   },
   {
-    "en": "Treasure of the Rudras"
+    "title_en": "Treasure of the Rudras"
+    "title_jp": "ルドラの秘宝",
+    "title_jp_romaji": "Rudora no Hihou",
+    "genre": "rpg_turn",
+    "description": "",
+    "developer": "Squaresoft",
+    "publisher": "Squaresoft",
+    "gameplay_still_url": "https://upload.wikimedia.org/wikipedia/en/9/9c/RudranoHihou.PNG",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Rudracover.jpg/425px-Rudracover.jpg",
+    "release_date": "1996-04-05",
+    "fun_facts": [],
   },
   {
-    "en": "Chaos seed"
+    "title_en": "Chaos seed"
+    "title_jp": "カオスシード〜風水回廊記〜",
+    "title_jp_romaji": "",
+    "genre": "rpg_action",
+    "description": "",
+    "developer": "Neverland",
+    "publisher": "Taito",
+    "gameplay_still_url": "https://cdn.mobygames.com/screenshots/16513170-chaos-seed-fusui-kairoki-snes-the-dungeon-where-you-start.png",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "1996-03-15",
+    "fun_facts": [],
   },
   {
-    "en": "Energy breaker"
+    "title_en": "Energy Breaker"
+    "title_jp": "エナジーブレイカー",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "Neverland",
+    "publisher": "Taito",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "title_box_art_url": "",
+    "release_date": "1996-07-26",
+    "fun_facts": [],
   },
   {
-    "en": "Alcahest" 
+    "title_en": "Alcahest" 
+    "title_jp": "アルカエスト",
+    "title_jp_romaji": "Arukaesuto",
+    "genre": "action_adventure",
+    "description": "",
+    "developer": "HAL Laboratory",
+    "publisher": "Squaresoft",
+    "gameplay_still_url": "https://upload.wikimedia.org/wikipedia/en/3/3d/SFC_Alcahest.png",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/a/a9/Alcahest_cover_art.png",
+    "release_date": "1993-12-17",
+    "fun_facts": [],
   },
   {
-    "en": "Ruin Arm"
+    "title_en": "Ruin Arm"
+    "title_jp": "ルインアーム",
+    "title_jp_romaji": "",
+    "genre": "rpg_action",
+    "description": "",
+    "developer": "Plex",
+    "publisher": "Bandai",
+    "gameplay_still_url": "https://cdn.mobygames.com/screenshots/708493-ruin-arm-snes-linda-talks-to-borgan.png",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/9/99/Ruin_arm.jpg",
+    "release_date": "1995-06-23",
+    "fun_facts": [],
   },
   {
-    "en": "Arcus Spirits"
+    "title_en": "Arcus Odyssey"
+    "title_jp": "アークス・スピリッツ",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "Wolf Team",
+    "publisher": "Sammy Corp",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [
+      "I had this down as \"Arcus Spirits\".",
+      "Also released on the Genesis and Sharp X68000."
+    ],
   },
   {
-    "en": "Dragon Quest III"
+    "title_en": "Dragon Quest III"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Dragon Quest V"
+    "title_en": "Dragon Quest V"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Dragon Quest VI"
+    "title_en": "Dragon Quest VI"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Dark Half"
+    "title_en": "Dark Half"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Tactics Ogre: Let Us Cling Together"
+    "title_en": "Tactics Ogre: Let Us Cling Together"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Dual Orb II"
+    "title_en": "Dual Orb II"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Tales of Phantasia"
+    "title_en": "Tales of Phantasia"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Front Mission"
+    "title_en": "Front Mission"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "G.O.D. Growth or Devolution"
+    "title_en": "G.O.D. Growth or Devolution"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Bahamut Lagoon"
+    "title_en": "Bahamut Lagoon"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Arabian Knights: desert spirit king"
+    "title_en": "Arabian Knights: desert spirit king"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Treasure Hunter G"
+    "title_en": "Treasure Hunter G"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Far East of Eden Zero *(Tengai Makyō Zero)*"
+    "title_en": "Far East of Eden Zero *(Tengai Makyō Zero)*"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Super Famicom Wars"
+    "title_en": "Super Famicom Wars"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Fire Emblem: Genealogy of the Holy War"
+    "title_en": "Fire Emblem: Genealogy of the Holy War"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Fire Emblem: Thracia 776"
+    "title_en": "Fire Emblem: Thracia 776"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Romancing SaGa 3"
+    "title_en": "Romancing SaGa 3"
+    "title_jp": "",
+    "title_jp_romaji": "",
+    "genre": "rpg",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "gameplay_still_url": "",
+    "gameplay_gif_url": "",
+    "box_art_url": "",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "Mystic Ark"
+    "title_en": "Mystic Ark"
+    "title_jp": "ミスティックアーク",
+    "title_jp_romaji": "Misutikku Āku",
+    "genre": "rpg_turn",
+    "description": "",
+    "developer": "Produce!",
+    "publisher": "Enix",
+    "gameplay_still_url": "https://www.legendra.com/media/screenshots/snes/mystic_ark/screen_10.jpg",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Mystic_Ark_SNES_Cover.jpg",
+    "release_date": "1995-07-14",
+    "fun_facts": [],
   },
   {
-    "en": "*Umihara Kawase* (interesting looking platformer)"
+    "title_en": ""
+    "title_jp": "海腹川背",
+    "title_jp_romaji": "Umihara Kawase",
+    "genre": "platformer",
+    "description": "",
+    "developer": "TNN",
+    "publisher": "TNN",
+    "gameplay_still_url": "https://upload.wikimedia.org/wikipedia/en/8/86/SFC_Umihara_Kawase.png",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/4/41/Umihara_Kawase_Coverart.png",
+    "release_date": "",
+    "fun_facts": [],
   },
   {
-    "en": "*OTO-GIRI-SOU* (horror)"
+    "title_en": ""
+    "title_jp": "弟切草",
+    "title_jp_romaji": "Otogirisō",
+    "genre": "visual_novel",
+    "description": "",
+    "developer": "Chunsoft",
+    "publisher": "Chunsoft",
+    "gameplay_still_url": "https://upload.wikimedia.org/wikipedia/en/9/92/Otogiriso-gameplay-screenshot.jpg",
+    "gameplay_gif_url": "",
+    "box_art_url": "https://upload.wikimedia.org/wikipedia/en/2/22/Otogiriso-game-cover.jpg",
+    "release_date": "1992-03-07",
+    "fun_facts": [],
   }
 ]
