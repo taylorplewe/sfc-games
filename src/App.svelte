@@ -1,46 +1,57 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+import GameData from "./GameData";
+import gamesRaw from "./games.json";
+
+const games: GamesData[] = gamesRaw;
+
+const getGameTitle = game => game.titleEn || game.titleJpRomaji;
 </script>
 
 <main>
-  <div>
-    <a href="https://vite.dev" target="_blank" rel="noreferrer">
-      vite
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      svelte
-    </a>
+  <div class="games">
+    {#each games as game}
+      <div class="game">
+        <img class="game-boxart" src={game.boxArtUrl}>
+        <h3 class="title">{getGameTitle(game)}</h3>
+        <p>{game.titleJp}</p>
+        {#if game.titleEn}
+          <p>{game.titleJpRomaji}</p>
+        {/if}
+      </div>
+    {/each}
   </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
+main {
+  margin: 0 auto 128px auto;
+  max-width: 90%;
+}
+
+.title {
+  font-size: 18pt;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+  gap: 32px;
+}
+.game {
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: scale 0.5s ease;
+  &:hover {
+    scale: 1.1;
   }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
+}
+.game-boxart {
+  object-fit: contain;
+  width: 100%;
+  aspect-ratio: 1;
+}
 </style>
