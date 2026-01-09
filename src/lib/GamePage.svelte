@@ -9,13 +9,12 @@
 </script>
 
 <main>
-  <img src={game.boxArtUrl} alt={game.titleEn}>
-
-  <hgroup>
+  <header>
+    <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={game.boxArtUrl} alt={game.titleEn}>
     <h1>{game.titleEn}</h1>
     <p>{game.titleJp}</p>
     <p>{game.titleJpRomaji}</p>
-  </hgroup>
+  </header>
 
   <p>{game.description}</p>
 
@@ -80,17 +79,48 @@
 </main>
 
 <style>
+  main {
+    margin: 128px auto;
+    max-width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+  }
+
   h1 {
     font-style: italic;
   }
 
   p {
-    opacity: 65%;
+    opacity: 70%;
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
   }
 
   td {
+    vertical-align: top;
+    width: 50%;
+
     &:first-child {
       opacity: 50%;
+      text-align: right;
+    }
+    &:last-child {
+      padding-left: 16px;
+    }
+  }
+
+  .game-boxart {
+    object-fit: contain;
+    width: 100%;
+    &.portrait {
+      aspect-ratio: 1;
     }
   }
 </style>
