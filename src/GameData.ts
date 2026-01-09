@@ -3,10 +3,11 @@ export default interface GameData {
   titleEn: string,
   titleJp: string,
   titleJpRomaji: string,
+  description: string,
+  releaseDate: string,
   developer: string,
   publisher: string,
   genre: string,
-  description: string,
   funFacts: string[],
   howLongToBeatHrs: number,
 
@@ -17,7 +18,6 @@ export default interface GameData {
   isBoxArtPortrait: boolean,
 
   // technical specs
-  releaseDate: string,
   sizeRomInMebibits: number,
   sizeSramInKibibits: number,
   isHiRom: boolean,
