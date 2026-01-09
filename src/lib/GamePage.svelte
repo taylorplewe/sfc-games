@@ -1,6 +1,6 @@
 <script lang="ts">
   import type GameData from "../GameData";
-  import { getDisplayDateFromIso, getGenreDisplayName } from "../utils"
+  import { getDisplayDateFromIso, getGenreDisplayName, getFullImageAssetUrl } from "../utils"
 
   interface Props {
     game: GameData,
@@ -10,7 +10,7 @@
 
 <main>
   <header>
-    <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={game.boxArtUrl} alt={game.titleEn}>
+    <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.boxArtImageName, "boxarts-full")} alt={game.titleEn}>
     <h1>{game.titleEn}</h1>
     <p>{game.titleJp}</p>
     <p>{game.titleJpRomaji}</p>

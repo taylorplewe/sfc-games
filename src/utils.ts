@@ -17,3 +17,7 @@ export function getGenreDisplayName(genreId: string): string {
   
   return GenreDisplayNames[genreId];
 }
+
+export function getFullImageAssetUrl(imageName: string, dir: string): string {
+  return `https://tplewe.com/sfc-games/src/assets/${dir}/${imageName}`;
+}

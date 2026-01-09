@@ -14,7 +14,7 @@ export default interface GameData {
   // visuals
   gameplayStillUrl: string,
   gameplayGifUrl: string,
-  boxArtUrl: string,
+  boxArtImageName: string,
   isBoxArtPortrait: boolean,
 
   // technical specs

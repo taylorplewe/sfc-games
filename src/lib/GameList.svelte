@@ -1,6 +1,7 @@
 <script lang="ts">
   import type GameData from "../GameData";
   import gamesRaw from "../games.json";
+  import { getFullImageAssetUrl } from "../utils";
   const games: GameData[] = gamesRaw;
 
   interface Props {
@@ -26,7 +27,7 @@
         onclick={() => setSelectedGame(game)}
         onkeydown={({ key }) => (key === "space" || key === "enter") && setSelectedGame(game)}
       >
-        <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={game.boxArtUrl} alt={game.titleEn}>
+        <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.boxArtImageName, "boxarts-full")} alt={game.titleEn}>
         <h3 class="game-title">{getGameTitle(game)}</h3>
         <p>{game.titleJp}</p>
         {#if game.titleEn}
