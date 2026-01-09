@@ -27,7 +27,7 @@
         onclick={() => setSelectedGame(game)}
         onkeydown={({ key }) => (key === "space" || key === "enter") && setSelectedGame(game)}
       >
-        <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.boxArtImageName, "boxarts-full")} alt={game.titleEn}>
+        <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.boxArtImageName, "boxarts-thumb")} alt={game.titleEn}>
         <h3 class="game-title">{getGameTitle(game)}</h3>
         <p>{game.titleJp}</p>
         {#if game.titleEn}
