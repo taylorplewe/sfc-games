@@ -74,6 +74,20 @@
         <td>ROM speed</td>
         <td>{game.isFastRom ? "FastROM" : "SlowROM"}</td>
       </tr>
+      <tr>
+        <td>Special chips used</td>
+        <td>
+          {#if game.specialChips.length}
+            <ul>
+              {#each game.specialChips as chip}
+                <li>{chip}</li>
+              {/each}
+            </ul>
+          {:else}
+            ✅ None
+          {/if}
+        </td>
+      </tr>
     </tbody>
   </table>
 </main>
