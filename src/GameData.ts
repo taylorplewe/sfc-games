@@ -1,4 +1,6 @@
 export default interface GameData {
+  id: string,
+
   // textual info
   titleEn: string,
   titleJp: string,
@@ -14,7 +16,6 @@ export default interface GameData {
   // visuals
   gameplayStillUrl: string,
   gameplayGifUrl: string,
-  boxArtImageName: string,
   isBoxArtPortrait: boolean,
 
   // technical specs

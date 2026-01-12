@@ -1,5 +1,11 @@
+import GameData from "./GameData";
+
 export function getDisplayDateFromIso(iso: string): string {
   return new Date(iso).toLocaleString(undefined, { dateStyle: "long" });
+}
+
+export function getTitleDisplayName(game: GameData): string {
+  return game.titleEn || game.titleJpRomaji;
 }
 
 export function getGenreDisplayName(genreId: string): string {
@@ -18,6 +24,6 @@ export function getGenreDisplayName(genreId: string): string {
   return GenreDisplayNames[genreId];
 }
 
-export function getFullImageAssetUrl(imageName: string, dir: string): string {
-  return `https://tplewe.com/sfc-games/src/assets/${dir}/${imageName}`;
+export function getFullImageAssetUrl(gameId: string, dir: string): string {
+  return `https://tplewe.com/sfc-games/src/assets/${dir}/${gameId}.jpg`;
 }

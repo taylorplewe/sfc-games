@@ -1,6 +1,6 @@
 <script lang="ts">
   import type GameData from "../GameData";
-  import { getDisplayDateFromIso, getGenreDisplayName, getFullImageAssetUrl } from "../utils"
+  import { getDisplayDateFromIso, getTitleDisplayName, getGenreDisplayName, getFullImageAssetUrl } from "../utils"
 
   interface Props {
     game: GameData,
@@ -10,10 +10,12 @@
 
 <main>
   <header>
-    <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.boxArtImageName, "boxarts-full")} alt={game.titleEn}>
-    <h1>{game.titleEn}</h1>
+    <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.id, "boxarts-full")} alt={game.titleEn}>
+    <h1>{getTitleDisplayName(game)}</h1>
     <p>{game.titleJp}</p>
-    <p>{game.titleJpRomaji}</p>
+    {#if game.titleEn}
+      <p>{game.titleJpRomaji}</p>
+    {/if}
   </header>
 
   <p>{game.description}</p>
@@ -75,9 +77,10 @@
         <td>{game.isFastRom ? "FastROM" : "SlowROM"}</td>
       </tr>
       <tr>
-        <td>Special chips used</td>
+        <td>Special chips needed?</td>
         <td>
           {#if game.specialChips.length}
+            <p>❌ Yes</p>
             <ul>
               {#each game.specialChips as chip}
                 <li>{chip}</li>

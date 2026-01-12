@@ -1,15 +1,14 @@
 <script lang="ts">
+  import { getTitleDisplayName, getFullImageAssetUrl } from "../utils";
   import type GameData from "../GameData";
   import gamesRaw from "../games.json";
-  import { getFullImageAssetUrl } from "../utils";
-  const games: GameData[] = gamesRaw;
+  const games: Record<string, GameData> = gamesRaw;
 
   interface Props {
     selectedGame: GameData | null,
   }
   let { selectedGame = $bindable() }: Props = $props();
 
-  const getGameTitle = (game: GameData) => game.titleEn || game.titleJpRomaji;
   const setSelectedGame = (game: GameData) => selectedGame = game;
 </script>
 
@@ -19,7 +18,7 @@
 </hgroup>
 <main>
   <div class="games">
-    {#each games as game}
+    {#each Object.values(games) as game}
       <div
         class="game"
         role="button"
@@ -27,8 +26,8 @@
         onclick={() => setSelectedGame(game)}
         onkeydown={({ key }) => (key === "space" || key === "enter") && setSelectedGame(game)}
       >
-        <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.boxArtImageName, "boxarts-thumb")} alt={game.titleEn}>
-        <h3 class="game-title">{getGameTitle(game)}</h3>
+        <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.id, "boxarts-thumb")} alt={game.titleEn}>
+        <h3 class="game-title">{getTitleDisplayName(game)}</h3>
         <p>{game.titleJp}</p>
         {#if game.titleEn}
           <p>{game.titleJpRomaji}</p>
@@ -61,7 +60,7 @@
 
   .games {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 48px;
   }
   .game {

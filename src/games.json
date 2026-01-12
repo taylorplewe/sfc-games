@@ -1,5 +1,6 @@
-[
-  {
+{
+  "seikendensetsu3": {
+    "id": "seikendensetsu3",
     "titleEn": "Trials of Mana",
     "titleJp": "聖剣伝説3",
     "titleJpRomaji": "Seiken Densetsu 3",
@@ -14,7 +15,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/a/a3/Seiken_Densetsu_3_Gameplay.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "seikendensetsu3.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-10-30",
     "sizeRomInMebibits": 32,
@@ -23,7 +23,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "terranigma": {
+    "id": "terranigma",
     "titleEn": "Terranigma",
     "titleJp": "天地創造",
     "titleJpRomaji": "Tenchi Sōzō",
@@ -37,7 +38,6 @@
     "publisher": "Enix",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/SNES_Terranigma_%28Tenchi_S%C5%8Dz%C5%8D%29.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "terranigma.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1995-10-20",
     "sizeRomInMebibits": 32,
@@ -46,7 +46,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "fmgh": {
+    "id": "fmgh",
     "titleEn": "Front Mission: Gun Hazard",
     "titleJp": "フロントミッションシリーズ ガンハザード",
     "titleJpRomaji": "Furonto Misshon Shirīzu Gan Hazādo",
@@ -60,7 +61,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/9/9e/Gun_Hazard_Screenshot.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "fmgh.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1996-02-23",
     "sizeRomInMebibits": 24,
@@ -69,7 +69,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "starocean": {
+    "id": "starocean",
     "titleEn": "Star Ocean",
     "titleJp": "スターオーシャン",
     "titleJpRomaji": "Sutā Ōshan",
@@ -84,7 +85,6 @@
     "howLongToBeatHrs": 21.0,
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/Star_ocean_super_famicom_battle.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "starocean.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1996-07-19",
     "sizeRomInMebibits": 48,
@@ -95,7 +95,8 @@
       "S-DD1"
     ]
   },
-  {
+  "ffv": {
+    "id": "ffv",
     "titleEn": "Final Fantasy V",
     "titleJp": "ファイナルファンタジーV",
     "titleJpRomaji": "Fainaru Fantajī Faibu",
@@ -107,7 +108,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://www.video-games-museum.com/en/screenshots/Super%20NES/3/7236-ingame-Final-Fantasy-V.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "ffv.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1992-12-06",
     "sizeRomInMebibits": 16,
@@ -116,7 +116,8 @@
     "isFastRom": false,
     "specialChips": []
   },
-  {
+  "clocktower": {
+    "id": "clocktower",
     "titleEn": "Clock Tower",
     "titleJp": "クロックタワー",
     "titleJpRomaji": "Kurokku Tawā",
@@ -130,7 +131,6 @@
     "publisher": "Human Entertainment",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/b/b8/Clock_Tower_%281995_video_game_-_screenshot%29.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "clocktower.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-10-14",
     "sizeRomInMebibits": 24,
@@ -139,7 +139,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "gunple": {
+    "id": "gunple",
     "titleEn": "Gunple Gunmans Proof",
     "titleJp": "ガンプル Gunman's Proof",
     "titleJpRomaji": "Gunman's Proof Ganpuru",
@@ -153,7 +154,6 @@
     "publisher": "ASCII",
     "gameplayStillUrl": "https://www.video-games-museum.com/en/screenshots/Super%20NES/3/7330-ingame-Ganpuru-Gunmans-Proof.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "gunple.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1997-01-31",
     "sizeRomInMebibits": 24,
@@ -162,7 +162,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "bushi": {
+    "id": "bushi",
     "titleEn": "Warriors of the Blue Dragon Legend",
     "titleJp": "BUSHI青龍伝〜二人の勇者〜",
     "titleJpRomaji": "Bushi Seiryuden: Futori no Yuusha",
@@ -174,7 +175,6 @@
     "publisher": "T&E Soft",
     "gameplayStillUrl": "https://www.video-games-museum.com/en/screenshots/Super%20NES/3/7002-ingame-Bushi-Seiryuuden-Futari-no-Yuusha.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "bushi.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1997-01-17",
     "sizeRomInMebibits": 24,
@@ -183,7 +183,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "albert": {
+    "id": "albert",
     "titleEn": "Albert Odyssey",
     "titleJp": "アルバートオデッセイ",
     "titleJpRomaji": "Arubāto Odessei",
@@ -195,7 +196,6 @@
     "publisher": "Sunsoft",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/e/e3/AlbertOdyssey1.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "albert.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1993-03-05",
     "sizeRomInMebibits": 8,
@@ -204,7 +204,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "albert2": {
+    "id": "albert2",
     "titleEn": "Albert Odyssey 2",
     "titleJp": "アルバートオデッセイII 邪神の胎動",
     "titleJpRomaji": "Arubāto Odessei II: Jashin no Taidō",
@@ -216,7 +217,6 @@
     "publisher": "Sunsoft",
     "gameplayStillUrl": "https://www.video-games-museum.com/en/screenshots/Super%20NES/3/6787-ingame-Albert-Odyssey-2-Jashin-no-Taidou.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "albert2.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1994-12-22",
     "sizeRomInMebibits": 16,
@@ -225,7 +225,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "ihatovo": {
+    "id": "ihatovo",
     "titleEn": "Ihatovo Monogatari",
     "titleJp": "イーハトーヴォ物語",
     "titleJpRomaji": "Īhatōvo Monogatari",
@@ -237,7 +238,6 @@
     "publisher": "Hect",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/d/da/IhatovoMonogatariScreenshotSNESTeacher.PNG",
     "gameplayGifUrl": "",
-    "boxArtImageName": "ihatovo.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1993-03-05",
     "sizeRomInMebibits": 8,
@@ -246,7 +246,8 @@
     "isFastRom": false,
     "specialChips": []
   },
-  {
+  "marvelous": {
+    "id": "marvelous",
     "titleEn": "Marvelous: Another Treasure Island",
     "titleJp": "マーヴェラス ～もうひとつの宝島～",
     "titleJpRomaji": "Marvelous: Mōhitotsu no Takarajima",
@@ -262,7 +263,6 @@
     "publisher": "Nintendo",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/c/c9/Marvelous_Mouhitsu_Screenshot.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "marvelous.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1996-10-26",
     "sizeRomInMebibits": 0,
@@ -271,7 +271,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "laplace": {
+    "id": "laplace",
     "titleEn": "Laplace no Ma (Laplace's Demon)",
     "titleJp": "ラプラスの魔",
     "titleJpRomaji": "Rapurasu no Ma",
@@ -283,7 +284,6 @@
     "publisher": "Vic Tokai",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/692138-laplace-no-ma-snes-intro.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "laplace.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-07-14",
     "sizeRomInMebibits": 0,
@@ -292,7 +292,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "rudras": {
+    "id": "rudras",
     "titleEn": "Treasure of the Rudras",
     "titleJp": "ルドラの秘宝",
     "titleJpRomaji": "Rudora no Hihou",
@@ -304,7 +305,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/9/9c/RudranoHihou.PNG",
     "gameplayGifUrl": "",
-    "boxArtImageName": "rudras.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1996-04-05",
     "sizeRomInMebibits": 32,
@@ -313,7 +313,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "chaosseed": {
+    "id": "chaosseed",
     "titleEn": "Chaos Seed",
     "titleJp": "カオスシード〜風水回廊記〜",
     "titleJpRomaji": "Kaosu Shīdo: Fūsui Kairōki",
@@ -325,7 +326,6 @@
     "publisher": "Taito",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/16513170-chaos-seed-fusui-kairoki-snes-the-dungeon-where-you-start.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "chaosseed.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1996-03-15",
     "sizeRomInMebibits": 20,
@@ -334,7 +334,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "energybreaker": {
+    "id": "energybreaker",
     "titleEn": "Energy Breaker",
     "titleJp": "エナジーブレイカー",
     "titleJpRomaji": "Enajī Bureikā",
@@ -348,7 +349,6 @@
     "publisher": "Taito",
     "gameplayStillUrl": "",
     "gameplayGifUrl": "",
-    "boxArtImageName": "energybreaker.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1996-07-26",
     "sizeRomInMebibits": 24,
@@ -357,7 +357,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "alcahest": {
+    "id": "alcahest",
     "titleEn": "Alcahest",
     "titleJp": "アルカエスト",
     "titleJpRomaji": "Arukaesuto",
@@ -369,7 +370,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/3/3d/SFC_Alcahest.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "alcahest.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1993-12-17",
     "sizeRomInMebibits": 8,
@@ -378,7 +378,8 @@
     "isFastRom": false,
     "specialChips": []
   },
-  {
+  "ruinarm": {
+    "id": "ruinarm",
     "titleEn": "Ruin Arm",
     "titleJp": "ルインアーム",
     "titleJpRomaji": "Ruin Āmu",
@@ -390,7 +391,6 @@
     "publisher": "Bandai",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/708493-ruin-arm-snes-linda-talks-to-borgan.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "ruinarm.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-06-23",
     "sizeRomInMebibits": 20,
@@ -399,7 +399,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "arcus": {
+    "id": "arcus",
     "titleEn": "Arcus Spirits",
     "titleJp": "アークス・スピリッツ",
     "titleJpRomaji": "Ākusu supirittsu",
@@ -413,7 +414,6 @@
     "publisher": "Sammy Corp",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/1786381-arcus-odyssey-snes-fighting-some-scorpions.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "arcus.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1993-10-22",
     "sizeRomInMebibits": 10,
@@ -422,7 +422,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "dq3": {
+    "id": "dq3",
     "titleEn": "Dragon Quest III",
     "titleJp": "ドラゴンクエストIII そして伝説へ...",
     "titleJpRomaji": "Doragon Kuesuto III: Soshite Densetsu e...",
@@ -436,7 +437,6 @@
     "publisher": "Enix",
     "gameplayStillUrl": "https://www.video-games-museum.com/en/screenshots/Super%20NES/4/7160-ingame-Dragon-Quest-III-Soshite-Densetsu-e-.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "dq3.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1996-12-06",
     "sizeRomInMebibits": 32,
@@ -445,7 +445,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "dq5": {
+    "id": "dq5",
     "titleEn": "Dragon Quest V",
     "titleJp": "ドラゴンクエストV 天空の花嫁",
     "titleJpRomaji": "Doragon Kuesuto Faibu: Tenkū no Hanayome",
@@ -459,7 +460,6 @@
     "publisher": "Enix",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Dragon_Quest_V.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "dq5.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1992-11-27",
     "sizeRomInMebibits": 16,
@@ -468,7 +468,8 @@
     "isFastRom": false,
     "specialChips": []
   },
-  {
+  "dq6": {
+    "id": "dq6",
     "titleEn": "Dragon Quest VI",
     "titleJp": "ドラゴンクエストVI 幻の大地",
     "titleJpRomaji": "Doragon Kuesuto VI: Maboroshi no Daichi",
@@ -480,7 +481,6 @@
     "publisher": "",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Dragonquest6.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "dq6.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-12-09",
     "sizeRomInMebibits": 32,
@@ -489,7 +489,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "darkhalf": {
+    "id": "darkhalf",
     "titleEn": "Dark Half",
     "titleJp": "ダークハーフ",
     "titleJpRomaji": "Dāku Hāfu",
@@ -501,7 +502,6 @@
     "publisher": "Enix",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/651312-dark-half-snes-through-the-dungeon.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "darkhalf.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1996-05-31",
     "sizeRomInMebibits": 24,
@@ -510,7 +510,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "tacticsogre": {
+    "id": "tacticsogre",
     "titleEn": "Tactics Ogre: Let Us Cling Together",
     "titleJp": "タクティクスオウガ",
     "titleJpRomaji": "Takutikusu Ōga",
@@ -522,7 +523,6 @@
     "publisher": "Quest",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/0/09/SFC_Tactics_Ogre_-_Let_Us_Cling_Together.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "tacticsogre.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-10-06",
     "sizeRomInMebibits": 24,
@@ -531,7 +531,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "dualorb2": {
+    "id": "dualorb2",
     "titleEn": "Dual Orb II",
     "titleJp": "デュアルオーブ2",
     "titleJpRomaji": "Duaruōbu Tsu",
@@ -543,7 +544,6 @@
     "publisher": "I'MAX",
     "gameplayStillUrl": "https://www.video-games-museum.com/en/screenshots/Super%20NES/4/7174-ingame-Dual-Orb-II.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "dualorb2.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1994-12-29",
     "sizeRomInMebibits": 20,
@@ -552,7 +552,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "tales": {
+    "id": "tales",
     "titleEn": "Tales of Phantasia",
     "titleJp": "テイルズ オブ ファンタジア",
     "titleJpRomaji": "Teiruzu Obu Fantajia",
@@ -564,7 +565,6 @@
     "publisher": "Namco",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/6/62/Tales_of_Phantasia_Battle_Screenshot.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "tales.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1995-12-15",
     "sizeRomInMebibits": 48,
@@ -573,7 +573,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "fm": {
+    "id": "fm",
     "titleEn": "Front Mission",
     "titleJp": "フロントミッション",
     "titleJpRomaji": "Furonto Misshon",
@@ -587,7 +588,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/c/c3/Front_Mission_Screenshot.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "fm.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1995-02-24",
     "sizeRomInMebibits": 24,
@@ -596,7 +596,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "god": {
+    "id": "god",
     "titleEn": "G.O.D. Growth or Devolution",
     "titleJp": "ジー・オー・ディー 目覚めよと呼ぶ声が聴こえ",
     "titleJpRomaji": "G.O.D: Mezameyo to Yobu Koe ga Kikoe",
@@ -608,7 +609,6 @@
     "publisher": "Imagineer",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/663220-god-mezameyo-to-yobu-koe-ga-kikoe-snes-your-home-town-alas-that-.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "god.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1996-12-20",
     "sizeRomInMebibits": 24,
@@ -617,7 +617,8 @@
     "isFastRom": false,
     "specialChips": []
   },
-  {
+  "bahamut": {
+    "id": "bahamut",
     "titleEn": "Bahamut Lagoon",
     "titleJp": "バハムート ラグーン",
     "titleJpRomaji": "Bahamūto Ragūn",
@@ -631,7 +632,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/16182250-bahamut-lagoon-snes-the-king-of-kahna-is-in-a-serious-trouble.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "bahamut.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1996-02-09",
     "sizeRomInMebibits": 24,
@@ -640,7 +640,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "arabian": {
+    "id": "arabian",
     "titleEn": "Arabian Nights: Desert Spirit King",
     "titleJp": "アラビアンナイト 〜砂漠の精霊王〜",
     "titleJpRomaji": "Arabian Nights: Sabaku no Seirei-ō",
@@ -652,7 +653,6 @@
     "publisher": "Takara",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/15718216-arabian-nights-sabaku-no-seirei-o-snes-intro.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "arabian.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1996-06-14",
     "sizeRomInMebibits": 20,
@@ -661,7 +661,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "treasurehunterg": {
+    "id": "treasurehunterg",
     "titleEn": "Treasure Hunter G",
     "titleJp": "トレジャーハンターG",
     "titleJpRomaji": "Torejā Hantā Jī",
@@ -675,7 +676,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/15891177-treasure-hunter-g-snes-starting-the-game.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "treasurehunterg.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1996-05-24",
     "sizeRomInMebibits": 24,
@@ -684,7 +684,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "tengaimakyouzero": {
+    "id": "tengaimakyouzero",
     "titleEn": "Far East of Eden Zero",
     "titleJp": "天外魔境ゼロ",
     "titleJpRomaji": "Tengai Makyō Zero",
@@ -696,7 +697,6 @@
     "funFacts": [],
     "howLongToBeatHrs": 24.5,
     "gameplayGifUrl": "",
-    "boxArtImageName": "tengaimakyouzero.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-12-22",
     "sizeRomInMebibits": 40,
@@ -708,7 +708,8 @@
       "RTC-4513 real-time clock"
     ]
   },
-  {
+  "sfcwars": {
+    "id": "sfcwars",
     "titleEn": "Super Famicom Wars",
     "titleJp": "スーパーファミコンウォーズ",
     "titleJpRomaji": "Sūpā Famikon Uāzu",
@@ -722,7 +723,6 @@
     "publisher": "Nintendo",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/15897426-super-famicom-wars-snes-red-will-surely-win-this-encounter.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "sfcwars.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1998-05-01",
     "sizeRomInMebibits": 16,
@@ -731,7 +731,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "fe-geneology": {
+    "id": "fe-geneology",
     "titleEn": "Fire Emblem: Genealogy of the Holy War",
     "titleJp": "ファイアーエムブレム聖戦の系譜",
     "titleJpRomaji": "Faiā Emuburemu: Seisen no Keifu",
@@ -743,7 +744,6 @@
     "publisher": "Nintendo",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/15933102-fire-emblem-seisen-no-keifu-snes-the-combatants-are-taking-to-th.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "fe-geneology.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1996-05-14",
     "sizeRomInMebibits": 32,
@@ -752,7 +752,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "fe-thracia": {
+    "id": "fe-thracia",
     "titleEn": "Fire Emblem: Thracia 776",
     "titleJp": "ファイアーエムブレム トラキア776",
     "titleJpRomaji": "Faiā Emuburemu: Torakia Nana Nana Roku",
@@ -764,7 +765,6 @@
     "publisher": "Nintendo",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/c/c7/FE_Thracia_776_gameplay.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "fe-thracia.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1999-11-01",
     "sizeRomInMebibits": 32,
@@ -773,7 +773,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "romancingsaga3": {
+    "id": "romancingsaga3",
     "titleEn": "Romancing SaGa 3",
     "titleJp": "ロマンシング サ・ガ3",
     "titleJpRomaji": "Romanshingu Sa Ga Surī",
@@ -785,7 +786,6 @@
     "publisher": "Squaresoft",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/16178743-romancing-saga-3-snes-the-game-has-some-really-beautiful-graphic.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "romancingsaga3.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1995-11-11",
     "sizeRomInMebibits": 32,
@@ -794,7 +794,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "mysticark": {
+    "id": "mysticark",
     "titleEn": "Mystic Ark",
     "titleJp": "ミスティックアーク",
     "titleJpRomaji": "Misutikku Āku",
@@ -806,7 +807,6 @@
     "publisher": "Enix",
     "gameplayStillUrl": "https://www.legendra.com/media/screenshots/snes/mystic_ark/screen_10.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "mysticark.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-07-14",
     "sizeRomInMebibits": 32,
@@ -815,7 +815,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "torneko": {
+    "id": "torneko",
     "titleEn": "Torneko's Great Adventure: Mystery Dungeon",
     "titleJp": "トルネコの大冒険 不思議のダンジョン",
     "titleJpRomaji": "Torneko no Daibōken Fushigi no Dungeon",
@@ -827,7 +828,6 @@
     "publisher": "Chunsoft",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/a/a7/FushiginoDungeonHighLevelMonsterChase.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "torneko.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1993-09-19",
     "sizeRomInMebibits": 12,
@@ -836,7 +836,8 @@
     "isFastRom": false,
     "specialChips": []
   },
-  {
+  "feda": {
+    "id": "feda",
     "titleEn": "FEDA - The Emblem of Justice",
     "titleJp": "フェーダ 〜 ジ・エンブレム・オブ・ジャスティス",
     "titleJpRomaji": "Fēda: Ji Enburemu Obu Jasutisu",
@@ -848,7 +849,6 @@
     "publisher": "Yanoman Corporation",
     "gameplayStillUrl": "https://www.video-games-museum.com/en/screenshots/Super%20NES/2/7224-menu-FEDA-The-Emblem-of-Justice.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "feda.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1994-10-28",
     "sizeRomInMebibits": 20,
@@ -857,7 +857,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "monstania": {
+    "id": "monstania",
     "titleEn": "Monstania",
     "titleJp": "モンスタニア",
     "titleJpRomaji": "Monsutania",
@@ -869,7 +870,6 @@
     "publisher": "Pack-in Video Co., Ltd.",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/2078137-monstania-snes-fron-in-the-forest.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "monstania.jpg",
     "isBoxArtPortrait": false,
     "releaseDate": "1996-09-27",
     "sizeRomInMebibits": 20,
@@ -878,7 +878,8 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "emeralddragon": {
+    "id": "emeralddragon",
     "titleEn": "Emerald Dragon",
     "titleJp": "エメラルドドラゴン",
     "titleJpRomaji": "Emerarudo Doragon",
@@ -890,7 +891,6 @@
     "publisher": "Media Works",
     "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/970887-emerald-dragon-snes-in-a-town.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "emeralddragon.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1995-07-28",
     "sizeRomInMebibits": 16,
@@ -899,7 +899,50 @@
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "ysiv": {
+    "id": "ysiv",
+    "titleEn": "Ys IV: Mask of the Sun",
+    "titleJp": "イースIV",
+    "titleJpRomaji": "Īsu Fō",
+    "description": "",
+    "genre": "rpg_action",
+    "funFacts": [],
+    "howLongToBeatHrs": 7.5,
+    "developer": "Tonkin House",
+    "publisher": "Tonkin House",
+    "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/8126933-ys-iv-mask-of-the-sun-snes-outside-hacking-easy-slimes.png",
+    "gameplayGifUrl": "",
+    "isBoxArtPortrait": true,
+    "releaseDate": "1993-11-19",
+    "sizeRomInMebibits": 12,
+    "sizeSramInKibibits": 64,
+    "isHiRom": false,
+    "isFastRom": true,
+    "specialChips": []
+  },
+  "ysv": {
+    "id": "ysv",
+    "titleEn": "Ys V: Lost Kefin, Kingdom of Sand",
+    "titleJp": "イースV 失われた砂の都ケフィン",
+    "titleJpRomaji": "Īsu Faibu: Ushinawareta Suna no Miyako Kefin",
+    "description": "",
+    "genre": "rpg_action",
+    "funFacts": [],
+    "howLongToBeatHrs": 7.0,
+    "developer": "Nihon Falcom",
+    "publisher": "Nihon Falcom",
+    "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/8126933-ys-iv-mask-of-the-sun-snes-outside-hacking-easy-slimes.png",
+    "gameplayGifUrl": "",
+    "isBoxArtPortrait": true,
+    "releaseDate": "1995-12-29",
+    "sizeRomInMebibits": 24,
+    "sizeSramInKibibits": 64,
+    "isHiRom": false,
+    "isFastRom": true,
+    "specialChips": []
+  },
+  "umihara": {
+    "id": "umihara",
     "titleEn": "",
     "titleJp": "海腹川背",
     "titleJpRomaji": "Umihara Kawase",
@@ -911,16 +954,16 @@
     "publisher": "TNN",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/SFC_Umihara_Kawase.png",
     "gameplayGifUrl": "",
-    "boxArtImageName": "umihara.jpg",
     "isBoxArtPortrait": false,
-    "releaseDate": "",
+    "releaseDate": "1994-12-23",
     "sizeRomInMebibits": 8,
     "sizeSramInKibibits": 16,
     "isHiRom": false,
     "isFastRom": true,
     "specialChips": []
   },
-  {
+  "otogiriso": {
+    "id": "otogiriso",
     "titleEn": "",
     "titleJp": "弟切草",
     "titleJpRomaji": "Otogirisō",
@@ -932,7 +975,6 @@
     "publisher": "Chunsoft",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Otogiriso-gameplay-screenshot.jpg",
     "gameplayGifUrl": "",
-    "boxArtImageName": "otogiriso.jpg",
     "isBoxArtPortrait": true,
     "releaseDate": "1992-03-07",
     "sizeRomInMebibits": 8,
@@ -941,4 +983,4 @@
     "isFastRom": false,
     "specialChips": []
   }
-]
+}
