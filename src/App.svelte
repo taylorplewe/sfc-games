@@ -7,6 +7,19 @@
 
   let selectedGame: GameData | null = $state(null);
 
+  // I previously had:
+  // $effect(() => void (window.location.search = selectedGame ? `?game=${selectedGame!.id}` : ""));
+  // but that would re-navigate
+  $effect(() => {
+    const url = new URL(window.location.href);
+    if (selectedGame) {
+      url.searchParams.set("game", selectedGame!.id);
+    } else {
+      url.search = "";
+    }
+    window.history.replaceState(null, "", url);
+  });
+
   const game = new URLSearchParams(window.location.search).get("game");
   if (game && game! in games) {
     selectedGame = games[game!];
@@ -16,7 +29,7 @@
 {#if selectedGame === null}
   <GameList bind:selectedGame={selectedGame} />
 {:else}
-  <GamePage game={selectedGame!} />
+  <GamePage game={selectedGame!} onBack={() => selectedGame = null} />
 {/if}
 
 <style>
