@@ -6,7 +6,7 @@
     "titleJpRomaji": "Seiken Densetsu 3",
     "description": "",
     "genre": "rpg_action",
-    "funFacts": [
+    "notes": [
       "Game director Hiromichi Tanaka remembers \"fighting\" with Hironobu Sakaguchi for staff, who were constantly being brought over to the teams working on Chrono Trigger and Romancing Saga 3, which were being finished at the time.",
       "There were plans to localize this game as \"Secret of Mana 2\" in the US, but was canceled due to technical bugs deemed impossible to fix in time."
     ],
@@ -30,7 +30,7 @@
     "titleJpRomaji": "Tenchi Sōzō",
     "description": "A grand action adventure, and the third installment in the unofficial \"Quintet trilogy\" (also referred to as the \"Gaia trilogy\"), consisting of Soul Blazer, Illusion of Gaia, and Terranigma. Uses main character Ark to tell the story of the birth and resurrection of the Earth.",
     "genre": "action_adventure",
-    "funFacts": [
+    "notes": [
       "The Japanese title for the game translates literally to \"The Creation of Heaven and Earth\"."
     ],
     "howLongToBeatHrs": 16.0,
@@ -53,7 +53,7 @@
     "titleJpRomaji": "Furonto Misshon Shirīzu Gan Hazādo",
     "description": "",
     "genre": "side_scrolling_shooter",
-    "funFacts": [
+    "notes": [
       "The music was done by Nobuo Uematsu and Yasunori Mitsuda, of Final Fantasy and Chrono Trigger fame."
     ],
     "howLongToBeatHrs": 17.0,
@@ -78,7 +78,7 @@
     "genre": "rpg_action",
     "developer": "tri-Ace",
     "publisher": "Enix",
-    "funFacts": [
+    "notes": [
       "After the release of Tales of Phantasia, which was plagued by creative disputes between developer Wolf Team and publisher Namco, many people from Wolf Team left to form tri-Ace and develop this game; hence why the two share many gameplay similarities.",
       "The game received a remake for the PSP in 2007 called \"Star Ocean: First Departure\"."
     ],
@@ -102,7 +102,7 @@
     "titleJpRomaji": "Fainaru Fantajī Faibu",
     "description": "The fifth entry in the famous Final Fantasy series. Known for its excellent job system. Not released in the US until a post-2000 re-release on the PS1.",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 31.0,
     "developer": "Squaresoft",
     "publisher": "Squaresoft",
@@ -123,7 +123,7 @@
     "titleJpRomaji": "Kurokku Tawā",
     "description": "",
     "genre": "survival_horror",
-    "funFacts": [
+    "notes": [
       "The design of protagonist Jennifer Simpson was inspired by that of Jennifer Corvino from Phenomena (played by Jennifer Connelly)."
     ],
     "howLongToBeatHrs": 3.0,
@@ -146,7 +146,7 @@
     "titleJpRomaji": "Gunman's Proof Ganpuru",
     "description": "",
     "genre": "action_adventure",
-    "funFacts": [
+    "notes": [
       "Final Fantasy VII was released on the same day."
     ],
     "howLongToBeatHrs": 4.5,
@@ -169,7 +169,7 @@
     "titleJpRomaji": "Bushi Seiryuden: Futori no Yuusha",
     "description": "",
     "genre": "adventure",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 14.5,
     "developer": "Game Freak",
     "publisher": "T&E Soft",
@@ -190,7 +190,7 @@
     "titleJpRomaji": "Arubāto Odessei",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 15.0,
     "developer": "Sunsoft",
     "publisher": "Sunsoft",
@@ -211,7 +211,7 @@
     "titleJpRomaji": "Arubāto Odessei II: Jashin no Taidō",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 0.0,
     "developer": "Sunsoft",
     "publisher": "Sunsoft",
@@ -232,7 +232,7 @@
     "titleJpRomaji": "Īhatōvo Monogatari",
     "description": "",
     "genre": "adventure",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 4.0,
     "developer": "Hect",
     "publisher": "Hect",
@@ -253,7 +253,7 @@
     "titleJpRomaji": "Marvelous: Mōhitotsu no Takarajima",
     "description": "",
     "genre": "action_adventure",
-    "funFacts": [
+    "notes": [
       "The first game directed by Eiji Aonuma.",
       "Uses the engine from The Legend of Zelda: A Link to the Past.",
       "Aonuma began work on Ocarina of Time immediately following this game."
@@ -278,7 +278,7 @@
     "titleJpRomaji": "Rapurasu no Ma",
     "description": "Horror RPG with some interesting mechanics",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 20.0,
     "developer": "HummingBird Soft",
     "publisher": "Vic Tokai",
@@ -299,7 +299,7 @@
     "titleJpRomaji": "Rudora no Hihou",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 29.0,
     "developer": "Squaresoft",
     "publisher": "Squaresoft",
@@ -320,7 +320,7 @@
     "titleJpRomaji": "Kaosu Shīdo: Fūsui Kairōki",
     "description": "",
     "genre": "rpg_action",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 0.0,
     "developer": "Neverland",
     "publisher": "Taito",
@@ -341,7 +341,7 @@
     "titleJpRomaji": "Enajī Bureikā",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [
+    "notes": [
       "It is rumored that Energy Breaker takes place in the same universe as Taito's other game series, Lufia."
     ],
     "howLongToBeatHrs": 27.5,
@@ -364,7 +364,7 @@
     "titleJpRomaji": "Arukaesuto",
     "description": "",
     "genre": "action_adventure",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 5.5,
     "developer": "HAL Laboratory",
     "publisher": "Squaresoft",
@@ -378,25 +378,25 @@
     "isFastRom": false,
     "specialChips": []
   },
-  "ruinarm": {
-    "id": "ruinarm",
-    "titleEn": "Ruin Arm",
-    "titleJp": "ルインアーム",
-    "titleJpRomaji": "Ruin Āmu",
+  "livealive": {
+    "id": "livealive",
+    "titleEn": "Live A Live",
+    "titleJp": "ライブ・ア・ライブ",
+    "titleJpRomaji": "Raibu A Raibu",
     "description": "",
-    "genre": "rpg_action",
-    "funFacts": [],
-    "howLongToBeatHrs": 22.0,
-    "developer": "Plex",
-    "publisher": "Bandai",
-    "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/708493-ruin-arm-snes-linda-talks-to-borgan.png",
+    "genre": "rpg_turn",
+    "notes": [],
+    "howLongToBeatHrs": 19.0,
+    "developer": "Squaresoft",
+    "publisher": "Squaresoft",
+    "gameplayStillUrl": "https://cdn.mobygames.com/screenshots/1881340-live-a-live-snes-wild-west-chapter.png",
     "gameplayGifUrl": "",
-    "isBoxArtPortrait": true,
-    "releaseDate": "1995-06-23",
-    "sizeRomInMebibits": 20,
+    "isBoxArtPortrait": false,
+    "releaseDate": "1994-09-02",
+    "sizeRomInMebibits": 16,
     "sizeSramInKibibits": 64,
-    "isHiRom": false,
-    "isFastRom": true,
+    "isHiRom": true,
+    "isFastRom": false,
     "specialChips": []
   },
   "arcus": {
@@ -406,7 +406,7 @@
     "titleJpRomaji": "Ākusu supirittsu",
     "description": "",
     "genre": "action_adventure",
-    "funFacts": [
+    "notes": [
       "Also released on the Genesis and Sharp X68000 as \"Arcus Odyssey\"."
     ],
     "howLongToBeatHrs": 2.0,
@@ -429,7 +429,7 @@
     "titleJpRomaji": "Doragon Kuesuto III: Soshite Densetsu e...",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [
+    "notes": [
       "Remake of the 1988 NES game."
     ],
     "howLongToBeatHrs": 28.0,
@@ -452,7 +452,7 @@
     "titleJpRomaji": "Doragon Kuesuto Faibu: Tenkū no Hanayome",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [
+    "notes": [
       "This game received 2 remakes, one for the PS2 in 2004, and one for the DS in 2008."
     ],
     "howLongToBeatHrs": 30.5,
@@ -475,7 +475,7 @@
     "titleJpRomaji": "Doragon Kuesuto VI: Maboroshi no Daichi",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 40.5,
     "developer": "ChunSoft",
     "publisher": "Enix",
@@ -496,7 +496,7 @@
     "titleJpRomaji": "Dāku Hāfu",
     "description": "You play as both the hero and villian.",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 18.0,
     "developer": "Westone",
     "publisher": "Enix",
@@ -517,7 +517,7 @@
     "titleJpRomaji": "Takutikusu Ōga",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 41.5,
     "developer": "Quest",
     "publisher": "Quest",
@@ -538,7 +538,7 @@
     "titleJpRomaji": "Duaruōbu Tsu",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 24.0,
     "developer": "I'MAX",
     "publisher": "I'MAX",
@@ -559,7 +559,7 @@
     "titleJpRomaji": "Teiruzu Obu Fantajia",
     "description": "",
     "genre": "rpg_action",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 33.0,
     "developer": "Wolf Team",
     "publisher": "Namco",
@@ -580,7 +580,7 @@
     "titleJpRomaji": "Furonto Misshon",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [
+    "notes": [
       "This game received 2 remakes: \"Front Mission 1st\" in 2003 for the PlayStation, and \"Front Mission 1st: Remake\" in 2022 for the Nintendo Switch, and ported to other modern platforms."
     ],
     "howLongToBeatHrs": 24.5,
@@ -603,7 +603,7 @@
     "titleJpRomaji": "G.O.D: Mezameyo to Yobu Koe ga Kikoe",
     "genre": "rpg_turn",
     "description": "",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 40.5,
     "developer": "Imagineer",
     "publisher": "Imagineer",
@@ -624,7 +624,7 @@
     "titleJpRomaji": "Bahamūto Ragūn",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [
+    "notes": [
       "Originally called \"Final Fantasy Tactics\"."
     ],
     "howLongToBeatHrs": 30.5,
@@ -647,7 +647,7 @@
     "titleJpRomaji": "Arabian Nights: Sabaku no Seirei-ō",
     "description": "This game follows an orthodox style of turn-based gameplay. However, a unique characteristic is that Barrier Cards allow special effects on combatants, whether friend or foe.",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 12.5,
     "developer": "Pandora Box",
     "publisher": "Takara",
@@ -668,7 +668,7 @@
     "titleJpRomaji": "Torejā Hantā Jī",
     "description": "Story and exploration similar to Chrono Trigger, combat similar to the Shining Force series.",
     "genre": "rpg_tact",
-    "funFacts": [
+    "notes": [
       "Character sprites were created from 3D models, similar to Super Mario RPG and Donkey Kong Country."
     ],
     "howLongToBeatHrs": 20.0,
@@ -694,7 +694,7 @@
     "developer": "Red Company",
     "publisher": "Hudson",
     "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/Far_East_of_Eden_Zero_Village_Kids_screenshot.png",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 24.5,
     "gameplayGifUrl": "",
     "isBoxArtPortrait": true,
@@ -715,7 +715,7 @@
     "titleJpRomaji": "Sūpā Famikon Uāzu",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [
+    "notes": [
       "Released exclusively through Nintendo Power to commemorate the 10th anniversary of Famicom Wars."
     ],
     "howLongToBeatHrs": 22.0,
@@ -738,7 +738,7 @@
     "titleJpRomaji": "Faiā Emuburemu: Seisen no Keifu",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 51.0,
     "developer": "Intelligent Systems",
     "publisher": "Nintendo",
@@ -759,7 +759,7 @@
     "titleJpRomaji": "Faiā Emuburemu: Torakia Nana Nana Roku",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 36.5,
     "developer": "Intelligent Systems",
     "publisher": "Nintendo",
@@ -780,7 +780,9 @@
     "titleJpRomaji": "Romanshingu Sa Ga Surī",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [
+      "Unfortunately the translation patch for this game isn't quite complete, but is fully playable."
+    ],
     "howLongToBeatHrs": 24.0,
     "developer": "Squaresoft",
     "publisher": "Squaresoft",
@@ -801,7 +803,7 @@
     "titleJpRomaji": "Misutikku Āku",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 32.5,
     "developer": "Produce!",
     "publisher": "Enix",
@@ -822,7 +824,7 @@
     "titleJpRomaji": "Torneko no Daibōken Fushigi no Dungeon",
     "description": "",
     "genre": "rougelike",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 14.5,
     "developer": "Chunsoft",
     "publisher": "Chunsoft",
@@ -843,7 +845,7 @@
     "titleJpRomaji": "Fēda: Ji Enburemu Obu Jasutisu",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 47.5,
     "developer": "Max Entertainment",
     "publisher": "Yanoman Corporation",
@@ -864,7 +866,7 @@
     "titleJpRomaji": "Monsutania",
     "description": "",
     "genre": "rpg_tact",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 4.0,
     "developer": "Bits Laboratory",
     "publisher": "Pack-in Video Co., Ltd.",
@@ -885,7 +887,7 @@
     "titleJpRomaji": "Emerarudo Doragon",
     "description": "",
     "genre": "rpg_turn",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 16.0,
     "developer": "Glodia Co., Ltd.",
     "publisher": "Media Works",
@@ -906,7 +908,7 @@
     "titleJpRomaji": "Īsu Fō",
     "description": "",
     "genre": "rpg_action",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 7.5,
     "developer": "Tonkin House",
     "publisher": "Tonkin House",
@@ -927,7 +929,7 @@
     "titleJpRomaji": "Īsu Faibu: Ushinawareta Suna no Miyako Kefin",
     "description": "",
     "genre": "rpg_action",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 7.0,
     "developer": "Nihon Falcom",
     "publisher": "Nihon Falcom",
@@ -948,7 +950,7 @@
     "titleJpRomaji": "Umihara Kawase",
     "description": "",
     "genre": "platformer",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 4.0,
     "developer": "TNN",
     "publisher": "TNN",
@@ -969,7 +971,7 @@
     "titleJpRomaji": "Otogirisō",
     "description": "",
     "genre": "visual_novel",
-    "funFacts": [],
+    "notes": [],
     "howLongToBeatHrs": 2.0,
     "developer": "Chunsoft",
     "publisher": "Chunsoft",

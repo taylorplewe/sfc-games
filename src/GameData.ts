@@ -10,7 +10,7 @@ export default interface GameData {
   developer: string,
   publisher: string,
   genre: string,
-  funFacts: string[],
+  notes: string[],
   howLongToBeatHrs: number,
 
   // visuals
