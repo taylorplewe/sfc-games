@@ -82,4 +82,17 @@
       aspect-ratio: 1;
     }
   }
+
+  @media screen and (max-width: 1200px) {
+    hgroup {
+      width: 100%;
+      text-align: center;
+      padding: 0 16px;
+      box-sizing: border-box;
+    }
+
+    .games {
+      grid-template-columns: 100%;
+    }
+  }
 </style>
