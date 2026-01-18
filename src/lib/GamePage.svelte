@@ -206,7 +206,9 @@
 
   @media screen and (max-width: 1200px) {
     header {
-      flex-direction: column;
+      &:has(.portrait) {
+        flex-direction: column;
+      }
     }
 
     .game-boxart {
