@@ -19,6 +19,7 @@ export function getGenreDisplayName(genreId: string): string {
     "adventure": "Adventure",
     "platformer": "Platformer",
     "visual_novel": "Visual Novel",
+    "rougelike": "Rougelike",
   };
   
   return GenreDisplayNames[genreId];

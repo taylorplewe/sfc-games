@@ -106,7 +106,9 @@
     "titleJpRomaji": "Fainaru Fantajī Faibu",
     "description": "The fifth entry in the famous Final Fantasy series. Known for its excellent job system. Not released in the US until a post-2000 re-release on the PS1.",
     "genre": "rpg_turn",
-    "notes": [],
+    "notes": [
+      "A ROM hack exists for this game which doubles EXP, gil and ABP to halve grinding."
+    ],
     "howLongToBeatHrs": 31.0,
     "developer": "Squaresoft",
     "publisher": "Squaresoft",
@@ -636,7 +638,9 @@
     "titleJpRomaji": "G.O.D: Mezameyo to Yobu Koe ga Kikoe",
     "genre": "rpg_turn",
     "description": "Similar to EarthBound in the sense that it's an adventure RPG that takes place in modern-day times, following a kid in a red baseball cap, with aliens playing a large role in the story.",
-    "notes": [],
+    "notes": [
+      "There is a ROM hack for this game that halves the encounter rate and doubles the xp and money received from battles."
+    ],
     "howLongToBeatHrs": 40.5,
     "developer": "Imagineer",
     "publisher": "Imagineer",

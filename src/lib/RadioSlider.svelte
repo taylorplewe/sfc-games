@@ -4,25 +4,29 @@
     label: string,
   }
   interface Props {
+    label: string,
     items: Item[],
     selectedItem: string,
   }
 
-  let { items, selectedItem = $bindable() }: Props = $props();
+  let { label, items, selectedItem = $bindable() }: Props = $props();
 </script>
 
-<div class="container">
-  {#each items as item}
-    {#if selectedItem === item.id}
-      <div class="item selected">
-        { item.label }
-      </div>
-    {:else}
-      <button class="item unselected" onclick={() => selectedItem = item.id }>
-        { item.label }
-      </button>
-    {/if}
-  {/each}
+<div class="slider">
+  <p>{label}</p>
+  <div class="container">
+    {#each items as item}
+      {#if selectedItem === item.id}
+        <div class="item selected">
+          { item.label }
+        </div>
+      {:else}
+        <button class="item unselected" onclick={() => selectedItem = item.id }>
+          { item.label }
+        </button>
+      {/if}
+    {/each}
+  </div>
 </div>
 
 <style>
