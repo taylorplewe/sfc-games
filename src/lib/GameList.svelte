@@ -3,7 +3,8 @@
 
   import { getTitleDisplayName, getFullImageAssetUrl } from "../utils";
   import type GameData from "../GameData";
-  import Slider from "./Slider.svelte";
+  import RadioSlider from "./RadioSlider.svelte";
+  import GameListItem from "./GameListItem.svelte";
   import gamesRaw from "../games.json";
   const games: Record<string, GameData> = gamesRaw;
 
@@ -33,7 +34,7 @@
   <p>Never released in the USA</p>
 </hgroup>
 <nav>
-  <Slider
+  <RadioSlider
     items={[
       { id: "grid", label: "Grid" },
       { id: "list", label: "List" },
@@ -42,24 +43,36 @@
   />
 </nav>
 <main>
-  <div class="games">
-    {#each Object.values(games) as game}
-      <div
-        class="game"
-        role="button"
-        tabindex="0"
-        onclick={() => setSelectedGame(game)}
-        onkeydown={({ key }) => (key === "space" || key === "enter") && setSelectedGame(game)}
-      >
-        <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.id, "boxarts-thumb", "jpg")} alt={game.titleEn}>
-        <h3 class="game-title">{getTitleDisplayName(game)}</h3>
-        <p>{game.titleJp}</p>
-        {#if game.titleEn}
-          <p>{game.titleJpRomaji}</p>
-        {/if}
-      </div>
-    {/each}
-  </div>
+  {#if currentViewType === "grid"}
+    <div class="games">
+      {#each Object.values(games) as game}
+        <div
+          class="game"
+          role="button"
+          tabindex="0"
+          onclick={() => setSelectedGame(game)}
+          onkeydown={({ key }) => (key === "space" || key === "enter") && setSelectedGame(game)}
+        >
+          <img class={["game-boxart", game.isBoxArtPortrait && "portrait"]} src={getFullImageAssetUrl(game.id, "boxarts-thumb", "jpg")} alt={game.titleEn}>
+          <h3 class="game-title">{getTitleDisplayName(game)}</h3>
+          <p>{game.titleJp}</p>
+          {#if game.titleEn}
+            <p>{game.titleJpRomaji}</p>
+          {/if}
+        </div>
+      {/each}
+    </div>
+  {:else}
+    <table id="game-list">
+      {#each Object.values(games) as game}
+        <GameListItem
+          game={game}
+          onclick={() => setSelectedGame(game)}
+          onkeydown={({ key }) => (key === "space" || key === "enter") && setSelectedGame(game)}
+        />
+      {/each}
+    </table>
+  {/if}
 </main>
 
 <style>
@@ -77,6 +90,10 @@
   main {
     margin: 0 auto 128px auto;
     max-width: 90%;
+  }
+
+  table {
+    border-spacing: 0;
   }
 
   .page-heading {
