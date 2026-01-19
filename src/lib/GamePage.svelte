@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
   import type GameData from "../GameData";
   import { getDisplayDateFromIso, getTitleDisplayName, getGenreDisplayName, getFullImageAssetUrl } from "../utils"
 
@@ -7,6 +9,12 @@
     onBack: Function,
   }
   const { game, onBack }: Props = $props();
+
+  onMount(() => {
+    if (window.document.scrollingElement) {
+      window.document.scrollingElement.scrollTop = 0;
+    }
+  })
 </script>
 
 <nav>

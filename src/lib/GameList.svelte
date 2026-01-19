@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { onMount } from "svelte";
+
   import { getTitleDisplayName, getFullImageAssetUrl } from "../utils";
   import type GameData from "../GameData";
   import gamesRaw from "../games.json";
@@ -6,10 +8,21 @@
 
   interface Props {
     selectedGame: GameData | null,
+    listScrollY: number,
   }
-  let { selectedGame = $bindable() }: Props = $props();
+  let { selectedGame = $bindable(), listScrollY = $bindable(), }: Props = $props();
 
-  const setSelectedGame = (game: GameData) => selectedGame = game;
+  const setSelectedGame = (game: GameData) => {
+    console.log('scrollTop', window.document.scrollingElement?.scrollTop);
+    listScrollY = window.document.scrollingElement?.scrollTop ?? 0;
+    selectedGame = game;
+  };
+
+  onMount(() => {
+    if (window.document.scrollingElement) {
+      window.document.scrollingElement.scrollTop = listScrollY;
+    }
+  });
 </script>
 
 <hgroup>

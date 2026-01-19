@@ -6,6 +6,7 @@
   const games: Record<string, GameData> = gamesRaw;
 
   let selectedGame: GameData | null = $state(null);
+  let listScrollY: number = $state(0);
 
   // I previously had:
   // $effect(() => void (window.location.search = selectedGame ? `?game=${selectedGame!.id}` : ""));
@@ -27,7 +28,7 @@
 </script>
 
 {#if selectedGame === null}
-  <GameList bind:selectedGame={selectedGame} />
+  <GameList bind:selectedGame={selectedGame} bind:listScrollY={listScrollY} />
 {:else}
   <GamePage game={selectedGame!} onBack={() => selectedGame = null} />
 {/if}
