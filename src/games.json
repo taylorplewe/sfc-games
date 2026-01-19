@@ -21,7 +21,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "terranigma": {
     "id": "terranigma",
@@ -44,7 +45,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "fmgh": {
     "id": "fmgh",
@@ -67,7 +69,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "starocean": {
     "id": "starocean",
@@ -93,7 +96,8 @@
     "isFastRom": true,
     "specialChips": [
       "S-DD1"
-    ]
+    ],
+    "taylorsScore": null
   },
   "ffv": {
     "id": "ffv",
@@ -114,7 +118,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": false,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "clocktower": {
     "id": "clocktower",
@@ -137,7 +142,8 @@
     "sizeSramInKibibits": 16,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "gunple": {
     "id": "gunple",
@@ -160,7 +166,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "bushi": {
     "id": "bushi",
@@ -181,7 +188,8 @@
     "sizeSramInKibibits": 16,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "albert": {
     "id": "albert",
@@ -202,7 +210,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "albert2": {
     "id": "albert2",
@@ -223,7 +232,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "ihatovo": {
     "id": "ihatovo",
@@ -244,7 +254,8 @@
     "sizeSramInKibibits": 16,
     "isHiRom": false,
     "isFastRom": false,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "marvelous": {
     "id": "marvelous",
@@ -269,7 +280,8 @@
     "sizeSramInKibibits": 0,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "laplace": {
     "id": "laplace",
@@ -290,7 +302,8 @@
     "sizeSramInKibibits": 0,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "rudras": {
     "id": "rudras",
@@ -311,7 +324,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "chaosseed": {
     "id": "chaosseed",
@@ -332,7 +346,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "energybreaker": {
     "id": "energybreaker",
@@ -355,7 +370,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "alcahest": {
     "id": "alcahest",
@@ -376,7 +392,8 @@
     "sizeSramInKibibits": 0,
     "isHiRom": false,
     "isFastRom": false,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "livealive": {
     "id": "livealive",
@@ -397,7 +414,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": false,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "arcus": {
     "id": "arcus",
@@ -420,7 +438,8 @@
     "sizeSramInKibibits": 0,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "dq3": {
     "id": "dq3",
@@ -443,7 +462,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "dq5": {
     "id": "dq5",
@@ -466,7 +486,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": false,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "dq6": {
     "id": "dq6",
@@ -487,7 +508,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "darkhalf": {
     "id": "darkhalf",
@@ -508,7 +530,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "tacticsogre": {
     "id": "tacticsogre",
@@ -531,7 +554,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "dualorb2": {
     "id": "dualorb2",
@@ -552,7 +576,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "tales": {
     "id": "tales",
@@ -576,7 +601,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "fm": {
     "id": "fm",
@@ -600,7 +626,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "god": {
     "id": "god",
@@ -621,7 +648,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": false,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "bahamut": {
     "id": "bahamut",
@@ -644,7 +672,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "arabian": {
     "id": "arabian",
@@ -665,7 +694,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "treasurehunterg": {
     "id": "treasurehunterg",
@@ -688,7 +718,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "tengaimakyouzero": {
     "id": "tengaimakyouzero",
@@ -712,7 +743,8 @@
     "specialChips": [
       "SPC7110",
       "RTC-4513 real-time clock"
-    ]
+    ],
+    "taylorsScore": null
   },
   "sfcwars": {
     "id": "sfcwars",
@@ -735,7 +767,8 @@
     "sizeSramInKibibits": 256,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "fe-geneology": {
     "id": "fe-geneology",
@@ -756,7 +789,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "fe-thracia": {
     "id": "fe-thracia",
@@ -779,7 +813,8 @@
     "sizeSramInKibibits": 256,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "romancingsaga3": {
     "id": "romancingsaga3",
@@ -802,7 +837,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "mysticark": {
     "id": "mysticark",
@@ -825,7 +861,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "torneko": {
     "id": "torneko",
@@ -846,7 +883,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": false,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "feda": {
     "id": "feda",
@@ -869,7 +907,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "monstania": {
     "id": "monstania",
@@ -890,7 +929,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "emeralddragon": {
     "id": "emeralddragon",
@@ -911,7 +951,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": true,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "ysiv": {
     "id": "ysiv",
@@ -932,7 +973,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "ysv": {
     "id": "ysv",
@@ -953,7 +995,8 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "umihara": {
     "id": "umihara",
@@ -976,7 +1019,8 @@
     "sizeSramInKibibits": 16,
     "isHiRom": false,
     "isFastRom": true,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   },
   "otogiriso": {
     "id": "otogiriso",
@@ -997,6 +1041,7 @@
     "sizeSramInKibibits": 64,
     "isHiRom": false,
     "isFastRom": false,
-    "specialChips": []
+    "specialChips": [],
+    "taylorsScore": null
   }
 }

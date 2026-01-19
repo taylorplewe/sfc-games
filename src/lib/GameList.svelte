@@ -3,6 +3,7 @@
 
   import { getTitleDisplayName, getFullImageAssetUrl } from "../utils";
   import type GameData from "../GameData";
+  import Slider from "./Slider.svelte";
   import gamesRaw from "../games.json";
   const games: Record<string, GameData> = gamesRaw;
 
@@ -18,6 +19,8 @@
     selectedGame = game;
   };
 
+  let currentViewType: "grid" | "list" = $state("grid");
+
   onMount(() => {
     if (window.document.scrollingElement) {
       window.document.scrollingElement.scrollTop = listScrollY;
@@ -29,6 +32,15 @@
   <h1 class="page-heading">Taylor's list of notable Super Famicom games</h1>
   <p>Never released in the USA</p>
 </hgroup>
+<nav>
+  <Slider
+    items={[
+      { id: "grid", label: "Grid" },
+      { id: "list", label: "List" },
+    ]}
+    bind:selectedItem={currentViewType}
+  />
+</nav>
 <main>
   <div class="games">
     {#each Object.values(games) as game}
@@ -51,14 +63,20 @@
 </main>
 
 <style>
+  hgroup {
+    width: max-content;
+    margin: 64px auto 32px auto;
+  }
+
+  nav {
+    margin: auto;
+    width: max-content;
+    margin-bottom: 32px;
+  }
+
   main {
     margin: 0 auto 128px auto;
     max-width: 90%;
-  }
-
-  hgroup {
-    width: max-content;
-    margin: 64px auto 128px auto;
   }
 
   .page-heading {

@@ -24,4 +24,7 @@ export default interface GameData {
   isHiRom: boolean,
   isFastRom: boolean,
   specialChips: string[],
+
+  // taylor-specific
+  taylorsScore: number | null,
 }
