@@ -3,6 +3,7 @@
 
   import { getTitleDisplayName, getFullImageAssetUrl, getGenreDisplayName } from "../utils";
   import type GameData from "../GameData";
+  import type ViewSettings from "../ViewSettings";
   import RadioSlider from "./RadioSlider.svelte";
   import GameListItem from "./GameListItem.svelte";
   import gamesRaw from "../games.json";
@@ -12,33 +13,28 @@
 
   interface Props {
     selectedGame: GameData | null,
-    listScrollY: number,
+    viewSettings: ViewSettings,
   }
-  let { selectedGame = $bindable(), listScrollY = $bindable(), }: Props = $props();
+  let { selectedGame = $bindable(), viewSettings = $bindable(), }: Props = $props();
 
   const setSelectedGame = (game: GameData) => {
-    console.log('scrollTop', window.document.scrollingElement?.scrollTop);
-    listScrollY = window.document.scrollingElement?.scrollTop ?? 0;
+    viewSettings.scrollY = window.document.scrollingElement?.scrollTop ?? 0;
     selectedGame = game;
   };
-
-  let currentViewType: "grid" | "list" = $state("grid");
-  let orderBy: string = $state("title");
-  let filterBy: string = $state("none");
 
   let gamesToDisplay = $derived.by(() => {
     const unorganizedGames = Object.values(games);
 
     const filteredGames = () => {
-      switch (filterBy) {
-        case "genre": return unorganizedGames.filter(game => game.genre === selectedGenre);
-        case "mapping": return selectedMapping ? mappings[selectedMapping] : unorganizedGames;
+      switch (viewSettings.filterBy) {
+        case "genre": return unorganizedGames.filter(game => game.genre === viewSettings.selectedGenre);
+        case "mapping": return viewSettings.selectedMapping ? mappings[viewSettings.selectedMapping] : unorganizedGames;
         case "played": return unorganizedGames.filter(game => gamePlayOrder.indexOf("played") < gamePlayOrder.indexOf(game.id));
         default: return unorganizedGames;
       }
     };
 
-    switch (orderBy) {
+    switch (viewSettings.orderBy) {
       case "title":
         return filteredGames().toSorted((a, b) => getTitleDisplayName(a).localeCompare(getTitleDisplayName(b)));
       case "playOrder":
@@ -72,12 +68,10 @@
       return {...prev, [key]: [curr]};
     }
   }, {});
-  let selectedGenre: string | null = $state(null);
-  let selectedMapping: string | null = $state(null);
 
   onMount(() => {
     if (window.document.scrollingElement) {
-      window.document.scrollingElement.scrollTop = listScrollY;
+      window.document.scrollingElement.scrollTop = viewSettings.scrollY;
     }
   });
 </script>
@@ -95,7 +89,7 @@
         { id: "grid", label: "Grid" },
         { id: "list", label: "List" },
       ]}
-      bind:selectedItem={currentViewType}
+      bind:selectedItem={viewSettings.mode}
     />
     <RadioSlider
       label="Filter by"
@@ -105,7 +99,7 @@
         { id: "mapping", label: "Mapping" },
         { id: "played", label: "Already Played" },
       ]}
-      bind:selectedItem={filterBy}
+      bind:selectedItem={viewSettings.filterBy}
     />
     <RadioSlider
       label="Order by"
@@ -114,16 +108,16 @@
         { id: "playOrder", label: "Play Order" },
         { id: "date", label: "Release Date" },
       ]}
-      bind:selectedItem={orderBy}
+      bind:selectedItem={viewSettings.orderBy}
     />
-    {#if filterBy === "genre"}
-      <select bind:value={selectedGenre}>
+    {#if viewSettings.filterBy === "genre"}
+      <select bind:value={viewSettings.selectedGenre}>
         {#each genres as genre}
           <option label={getGenreDisplayName(genre)} value={genre}></option>
         {/each}
       </select>
-    {:else if filterBy === "mapping"}
-      <select bind:value={selectedMapping}>
+    {:else if viewSettings.filterBy === "mapping"}
+      <select bind:value={viewSettings.selectedMapping}>
         {#each Object.entries(mappings) as [mapping]}
           <option label={mapping} value={mapping}></option>
         {/each}
@@ -132,7 +126,7 @@
   </details>
 </nav>
 <main>
-  {#if currentViewType === "grid"}
+  {#if viewSettings.mode === "grid"}
     <div class="games">
       {#each gamesToDisplay as game}
         <div
@@ -172,11 +166,14 @@
 
   nav {
     width: max-content;
-    margin: 32px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 32px auto;
 
     details {
       padding: 16px;
       overflow: hidden;
+      text-align: center;
 
       > summary {
         cursor: pointer;

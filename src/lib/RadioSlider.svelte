@@ -30,6 +30,10 @@
 </div>
 
 <style>
+  .slider {
+    overflow: auto;
+  }
+
   .container {
     border: 1px solid #ffffff22;
     border-radius: 4px;

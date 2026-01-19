@@ -2,11 +2,19 @@
   import GameList from "./lib/GameList.svelte";
   import GamePage from "./lib/GamePage.svelte";
   import type GameData from "./GameData";
+  import type ViewSettings from "./ViewSettings";
   import gamesRaw from "./games.json";
   const games: Record<string, GameData> = gamesRaw;
 
   let selectedGame: GameData | null = $state(null);
-  let listScrollY: number = $state(0);
+  let viewSettings: ViewSettings = $state({
+    scrollY: 0,
+    orderBy: "title",
+    filterBy: "none",
+    mode: "grid",
+    selectedGenre: null,
+    selectedMapping: null,
+  });
 
   // I previously had:
   // $effect(() => void (window.location.search = selectedGame ? `?game=${selectedGame!.id}` : ""));
@@ -28,7 +36,7 @@
 </script>
 
 {#if selectedGame === null}
-  <GameList bind:selectedGame={selectedGame} bind:listScrollY={listScrollY} />
+  <GameList bind:selectedGame={selectedGame} bind:viewSettings={viewSettings} />
 {:else}
   <GamePage game={selectedGame!} onBack={() => selectedGame = null} />
 {/if}
