@@ -2,7 +2,14 @@
   import { onMount } from "svelte";
 
   import type GameData from "../GameData";
-  import { getDisplayDateFromIso, getTitleDisplayName, getGenreDisplayName, getFullImageAssetUrl, getUsdDisplayText } from "../utils"
+  import {
+    getDisplayDateFromIso,
+    getTitleDisplayName,
+    getGenreDisplayName,
+    getFullImageAssetUrl,
+    getUsdDisplayText,
+    getEbaySearchUrl,
+  } from "../utils"
 
   interface Props {
     game: GameData,
@@ -64,7 +71,7 @@
           </tr>
           <tr>
             <td>Approx. price for a boxed copy (in January 2026)</td>
-            <td>{getUsdDisplayText(game.priceBoxedCopy)}</td>
+            <td><a href={getEbaySearchUrl(game)} target="_blank">{getUsdDisplayText(game.priceBoxedCopy)}</a></td>
           </tr>
           {#if game.notes.length}
             <tr>

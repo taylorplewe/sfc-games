@@ -8,6 +8,10 @@ export function getTitleDisplayName(game: GameData): string {
   return game.titleEn || game.titleJpRomaji;
 }
 
+function getTitleUrlName(game: GameData): string {
+  return getTitleDisplayName(game).toLowerCase().replace(/ /g, "+");
+}
+
 export function getGenreDisplayName(genreId: string): string {
   const GenreDisplayNames = {
     "rpg_turn": "Turn-based RPG",
@@ -36,4 +40,8 @@ export function getUsdDisplayText(value: number): string {
     default:
       return value.toLocaleString(undefined, { style: "currency", currency: "USD" });
   }
+}
+
+export function getEbaySearchUrl(game: GameData): string {
+  return `https://www.ebay.com/sch/i.html?_nkw=${getTitleUrlName(game)}+super+famicom`;
 }
