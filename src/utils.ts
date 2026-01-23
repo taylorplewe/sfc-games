@@ -28,3 +28,12 @@ export function getGenreDisplayName(genreId: string): string {
 export function getFullImageAssetUrl(gameId: string, dir: string, ext: string): string {
   return `https://tplewe.com/sfc-games/src/assets/${dir}/${gameId}.${ext}`;
 }
+
+export function getUsdDisplayText(value: number): string {
+  switch (value) {
+    case 0:
+      return "Never received a standalone physical release";
+    default:
+      return value.toLocaleString(undefined, { style: "currency", currency: "USD" });
+  }
+}

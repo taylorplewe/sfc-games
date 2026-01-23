@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
 
   import type GameData from "../GameData";
-  import { getDisplayDateFromIso, getTitleDisplayName, getGenreDisplayName, getFullImageAssetUrl } from "../utils"
+  import { getDisplayDateFromIso, getTitleDisplayName, getGenreDisplayName, getFullImageAssetUrl, getUsdDisplayText } from "../utils"
 
   interface Props {
     game: GameData,
@@ -61,6 +61,10 @@
           <tr>
             <td>How long to beat</td>
             <td>{game.howLongToBeatHrs}hrs</td>
+          </tr>
+          <tr>
+            <td>Approx. price for a boxed copy (in January 2026)</td>
+            <td>{getUsdDisplayText(game.priceBoxedCopy)}</td>
           </tr>
           {#if game.notes.length}
             <tr>

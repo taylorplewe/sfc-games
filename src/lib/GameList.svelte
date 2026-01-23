@@ -39,6 +39,8 @@
         return filteredGames().toSorted((a, b) => getTitleDisplayName(a).localeCompare(getTitleDisplayName(b)));
       case "playOrder":
         return filteredGames().toSorted((a, b) => gamePlayOrder.indexOf(a.id) - gamePlayOrder.indexOf(b.id));
+      case "price":
+        return filteredGames().toSorted((a, b) => a.priceBoxedCopy - b.priceBoxedCopy);        
       case "date":
       default:
         return filteredGames().toSorted((a, b) => new Date(a.releaseDate).valueOf() - new Date(b.releaseDate).valueOf());
@@ -61,6 +63,8 @@
     } else {
       key += `; ${curr.sizeSramInKibibits}Kb SRAM`;
     }
+    key += curr.isHiRom ? "; HiROM" : "; LoROM";
+    key += curr.isFastRom ? "; FastROM" : "; SlowROM";
 
     if (key in prev) {
       return {...prev, [key]: [...prev[key], curr]};
@@ -107,6 +111,7 @@
         { id: "title", label: "Title" },
         { id: "playOrder", label: "Play Order" },
         { id: "date", label: "Release Date" },
+        { id: "price", label: "Price" },
       ]}
       bind:selectedItem={viewSettings.orderBy}
     />
@@ -118,7 +123,7 @@
       </select>
     {:else if viewSettings.filterBy === "mapping"}
       <select bind:value={viewSettings.selectedMapping}>
-        {#each Object.entries(mappings) as [mapping]}
+        {#each Object.entries(mappings).toSorted() as [mapping]}
           <option label={mapping} value={mapping}></option>
         {/each}
       </select>
@@ -152,6 +157,7 @@
           game={game}
           onclick={() => setSelectedGame(game)}
           onkeydown={({ key }) => (key === "space" || key === "enter") && setSelectedGame(game)}
+          showPrice={viewSettings.orderBy === "price"}
         />
       {/each}
     </table>

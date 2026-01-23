@@ -12,6 +12,7 @@ export default interface GameData {
   genre: string,
   notes: string[],
   howLongToBeatHrs: number,
+  priceBoxedCopy: number,
 
   // visuals
   gameplayStillUrl: string,
