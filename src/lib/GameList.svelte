@@ -41,6 +41,8 @@
         return filteredGames().toSorted((a, b) => gamePlayOrder.indexOf(a.id) - gamePlayOrder.indexOf(b.id));
       case "price":
         return filteredGames().toSorted((a, b) => a.priceBoxedCopy - b.priceBoxedCopy);        
+      case "length":
+        return filteredGames().toSorted((a, b) => a.howLongToBeatHrs - b.howLongToBeatHrs);        
       case "date":
       default:
         return filteredGames().toSorted((a, b) => new Date(a.releaseDate).valueOf() - new Date(b.releaseDate).valueOf());
@@ -112,6 +114,7 @@
         { id: "playOrder", label: "Play Order" },
         { id: "date", label: "Release Date" },
         { id: "price", label: "Price" },
+        { id: "length", label: "Length" },
       ]}
       bind:selectedItem={viewSettings.orderBy}
     />
@@ -157,7 +160,9 @@
           game={game}
           onclick={() => setSelectedGame(game)}
           onkeydown={({ key }) => (key === "space" || key === "enter") && setSelectedGame(game)}
+          showDate={viewSettings.orderBy === "date"}
           showPrice={viewSettings.orderBy === "price"}
+          showLength={viewSettings.orderBy === "length"}
         />
       {/each}
     </table>

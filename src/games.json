@@ -1094,5 +1094,28 @@
     "isFastRom": false,
     "specialChips": [],
     "taylorsScore": null
+  },
+  "darklaw": {
+    "id": "darklaw",
+    "titleEn": "",
+    "titleJp": "弟切草",
+    "titleJpRomaji": "Otogirisō",
+    "description": "Self-called 'sound novel' from Chunsoft, the same developers as the Dragon Quest series.",
+    "genre": "visual_novel",
+    "notes": [],
+    "howLongToBeatHrs": 2.0,
+    "priceBoxedCopy": 30.0,
+    "developer": "Chunsoft",
+    "publisher": "Chunsoft",
+    "gameplayStillUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Otogiriso-gameplay-screenshot.jpg",
+    "gameplayGifUrl": "",
+    "isBoxArtPortrait": true,
+    "releaseDate": "1997-03-28",
+    "sizeRomInMebibits": 8,
+    "sizeSramInKibibits": 64,
+    "isHiRom": false,
+    "isFastRom": false,
+    "specialChips": [],
+    "taylorsScore": null
   }
 }

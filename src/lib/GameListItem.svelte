@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getFullImageAssetUrl, getTitleDisplayName, getUsdDisplayText } from "../utils";
+  import { getFullImageAssetUrl, getTitleDisplayName, getUsdDisplayText, getDisplayDateFromIso } from "../utils";
   import type GameData from "../GameData";
   import type { KeyboardEventHandler, MouseEventHandler } from "svelte/elements";
 
@@ -7,17 +7,31 @@
     game: GameData,
     onclick: MouseEventHandler<HTMLTableRowElement>,
     onkeydown: KeyboardEventHandler<HTMLTableRowElement>,
+    showDate: boolean,
+    showLength: boolean,
     showPrice: boolean,
   }
 
-  const { game, onclick, onkeydown, showPrice }: Props = $props();
+  const {
+    game,
+    onclick,
+    onkeydown,
+    showDate,
+    showPrice,
+    showLength,
+  }: Props = $props();
 </script>
 
 <tr onclick={onclick} onkeydown={onkeydown}>
   <td><img class="game-boxart" src={getFullImageAssetUrl(game.id, "boxarts-thumb", "jpg")} alt={game.titleEn}></td>
   <td>{getTitleDisplayName(game)}</td>
-  {#if showPrice}
+  {#if showDate}
+    <td>{getDisplayDateFromIso(game.releaseDate)}</td>
+
+  {:else if  showPrice}
     <td>{getUsdDisplayText(game.priceBoxedCopy)}</td>
+  {:else if showLength}
+    <td>{`${game.howLongToBeatHrs}hrs`}</td>
   {/if}
 </tr>
 
