@@ -1099,11 +1099,13 @@
     "id": "darklaw",
     "titleEn": "Dark Law: Meaning of Death",
     "titleJp": "ダークロウ ミーニング・オブ・デス",
-    "titleJpRomaji": "Otogirisō",
-    "description": "Self-called 'sound novel' from Chunsoft, the same developers as the Dragon Quest series.",
+    "titleJpRomaji": "Dākurou Mīningu obu Desu",
+    "description": "Less linear than traditional turn-based role playing games; there is a main story with several side quests. Battles are pre-determined, instead of random, as was tradition for games like this at the time.",
     "genre": "rpg_turn",
-    "notes": [],
-    "howLongToBeatHrs": 2.0,
+    "notes": [
+      "In order to have a more detailed font and display more text on the screen, the game makes use of the Super Famicom's pseudo-HiRes and Interlace modes to effectively give the game a resolution of 512x448px--double that of the system's natural resolution."
+    ],
+    "howLongToBeatHrs": 0.0,
     "priceBoxedCopy": 800.0,
     "developer": "Sakata SAS Co., Ltd.",
     "publisher": "ASCII",
@@ -1114,7 +1116,7 @@
     "sizeRomInMebibits": 32,
     "sizeSramInKibibits": 64,
     "isHiRom": true,
-    "isFastRom": false,
+    "isFastRom": true,
     "specialChips": [],
     "taylorsScore": null
   }
